@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arturo puslapis</title>
+    
+    
+    
+    <link>http://arturasragosko@github.io/</link>
+    <description>Recent content on Arturo puslapis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Dec 2022 12:42:38 +0100</lastBuildDate>
+    
+	<atom:link href="http://arturasragosko@github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Naujas puslapis</title>
+      <link>http://arturasragosko@github.io/posts/puslapis/</link>
+      <pubDate>Sat, 10 Dec 2022 12:42:38 +0100</pubDate>
+      
+      <guid>http://arturasragosko@github.io/posts/puslapis/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Naujas puslapis sukurtas! Puslapiui sukurti panaudota komanda:
+hugo new posts/puslapis.md 
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
