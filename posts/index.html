@@ -111,6 +111,43 @@
   <div class="posts">
     
       <article class="post on-list">
+        <h1 class="post-title"><a href="http://arturasragosko@github.io/posts/sveikaspasauli/">SveikasPasauli!</a></h1>
+        <div class="post-meta">
+          
+            <time class="post-date">
+              2022-12-10
+            </time>
+
+            
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+          
+            
+              Risc-V Assembly Language Hello World
+# # Risc-V Assembler program to print &#34;Hello World!&#34; # to stdout. # # a0-a2 - parameters to linux function services # a7 - linux function number # .global _start # Provide program starting address to linker # Setup the parameters to print hello world # and then call Linux to do it. _start: addi a0, x0, 1 # 1 = StdOut la a1, helloworld # load address of helloworld addi a2, x0, 13 # length of our string addi a7, x0, 64 # linux write system call ecall # Call linux to output the string # Setup the parameters to exit the program # and then call Linux to do it.
+            
+          
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/sveikaspasauli/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
         <h1 class="post-title"><a href="http://arturasragosko@github.io/posts/puslapis/">Naujas puslapis</a></h1>
         <div class="post-meta">
           

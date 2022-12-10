@@ -9,10 +9,31 @@
     <description>Recent content on Arturo puslapis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Dec 2022 12:42:38 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 Dec 2022 14:43:32 +0100</lastBuildDate>
     
 	<atom:link href="http://arturasragosko@github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SveikasPasauli!</title>
+      <link>http://arturasragosko@github.io/posts/sveikaspasauli/</link>
+      <pubDate>Sat, 10 Dec 2022 14:43:32 +0100</pubDate>
+      
+      <guid>http://arturasragosko@github.io/posts/sveikaspasauli/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Risc-V Assembly Language Hello World
+# # Risc-V Assembler program to print &amp;#34;Hello World!&amp;#34; # to stdout. # # a0-a2 - parameters to linux function services # a7 - linux function number # .global _start # Provide program starting address to linker # Setup the parameters to print hello world # and then call Linux to do it. _start: addi a0, x0, 1 # 1 = StdOut la a1, helloworld # load address of helloworld addi a2, x0, 13 # length of our string addi a7, x0, 64 # linux write system call ecall # Call linux to output the string # Setup the parameters to exit the program # and then call Linux to do it.
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Naujas puslapis</title>
